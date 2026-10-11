@@ -1,0 +1,36 @@
+# Environment
+.env
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Data & Memory
+data/knowledge/*
+!data/knowledge/.gitkeep
+data/logs/*
+!data/logs/.gitkeep
+memory/chroma_db/
+*.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
